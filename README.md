@@ -6,11 +6,11 @@ distribited system
 
 Technologies:
 
-Python
-FastAPI
-RabbitMQ
-Docker
-Docker-compose
-PostreSQL
-SQLalchemy
-AsyncIO?
+- Python
+- FastAPI
+- RabbitMQ
+- Docker
+- Docker-compose
+- PostreSQL
+- SQLalchemy
+-AsyncIO?
