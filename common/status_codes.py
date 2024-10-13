@@ -1,3 +1,5 @@
-class STATUS_CODES():
-    OK: int = 0
-    ERROR: int = 1
+from enum import Enum
+
+class STATUS_CODES(Enum):
+    OK = 0
+    ERROR = 1

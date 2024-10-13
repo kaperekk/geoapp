@@ -16,7 +16,8 @@ db.metadata.create_all(bind=engine)
 # Create a new session
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 session = SessionLocal()
-
+class database():
+    
 def insert_entry(ip: str, JSON: str) -> int:
 
     try:
